@@ -11,6 +11,7 @@ env/
 venv/
 ENV/
 .venv/
+venv
 
 # VS Code
 .vscode/
@@ -39,11 +40,9 @@ pip-wheel-metadata/
 *.orig
 
 # Environment files
-.env
+/.env
 .env.*
 *.env
-env/
-
 
 # Testing
 htmlcov/
